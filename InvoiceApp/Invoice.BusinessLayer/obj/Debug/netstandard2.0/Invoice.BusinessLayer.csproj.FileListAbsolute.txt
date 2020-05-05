@@ -1,0 +1,14 @@
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.BusinessLayer\bin\Debug\netstandard2.0\Invoice.BusinessLayer.deps.json
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.BusinessLayer\bin\Debug\netstandard2.0\Invoice.BusinessLayer.dll
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.BusinessLayer\bin\Debug\netstandard2.0\Invoice.BusinessLayer.pdb
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.BusinessLayer\bin\Debug\netstandard2.0\Invoice.DataAccess.dll
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.BusinessLayer\bin\Debug\netstandard2.0\Invoice.Models.dll
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.BusinessLayer\bin\Debug\netstandard2.0\Invoice.DataAccess.pdb
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.BusinessLayer\bin\Debug\netstandard2.0\Invoice.Models.pdb
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.BusinessLayer\obj\Debug\netstandard2.0\Invoice.BusinessLayer.csprojAssemblyReference.cache
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.BusinessLayer\obj\Debug\netstandard2.0\Invoice.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.BusinessLayer\obj\Debug\netstandard2.0\Invoice.BusinessLayer.AssemblyInfoInputs.cache
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.BusinessLayer\obj\Debug\netstandard2.0\Invoice.BusinessLayer.AssemblyInfo.cs
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.BusinessLayer\obj\Debug\netstandard2.0\Invoice.BusinessLayer.csproj.CopyComplete
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.BusinessLayer\obj\Debug\netstandard2.0\Invoice.BusinessLayer.dll
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.BusinessLayer\obj\Debug\netstandard2.0\Invoice.BusinessLayer.pdb

@@ -1,0 +1,9 @@
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.Models\bin\Debug\netstandard2.0\Invoice.Models.deps.json
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.Models\bin\Debug\netstandard2.0\Invoice.Models.dll
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.Models\bin\Debug\netstandard2.0\Invoice.Models.pdb
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.Models\obj\Debug\netstandard2.0\Invoice.Models.csprojAssemblyReference.cache
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.Models\obj\Debug\netstandard2.0\Invoice.Models.csproj.CoreCompileInputs.cache
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.Models\obj\Debug\netstandard2.0\Invoice.Models.AssemblyInfoInputs.cache
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.Models\obj\Debug\netstandard2.0\Invoice.Models.AssemblyInfo.cs
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.Models\obj\Debug\netstandard2.0\Invoice.Models.dll
+D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.Models\obj\Debug\netstandard2.0\Invoice.Models.pdb
