@@ -1,9 +1,0 @@
-D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.DataAccess\bin\Debug\netstandard2.0\Invoice.DataAccess.deps.json
-D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.DataAccess\bin\Debug\netstandard2.0\Invoice.DataAccess.dll
-D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.DataAccess\bin\Debug\netstandard2.0\Invoice.DataAccess.pdb
-D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.DataAccess\obj\Debug\netstandard2.0\Invoice.DataAccess.csprojAssemblyReference.cache
-D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.DataAccess\obj\Debug\netstandard2.0\Invoice.DataAccess.csproj.CoreCompileInputs.cache
-D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.DataAccess\obj\Debug\netstandard2.0\Invoice.DataAccess.AssemblyInfoInputs.cache
-D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.DataAccess\obj\Debug\netstandard2.0\Invoice.DataAccess.AssemblyInfo.cs
-D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.DataAccess\obj\Debug\netstandard2.0\Invoice.DataAccess.dll
-D:\Mr.Cooper\Invoice-App\InvoiceApp\Invoice.DataAccess\obj\Debug\netstandard2.0\Invoice.DataAccess.pdb
