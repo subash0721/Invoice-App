@@ -1,0 +1,39 @@
+<p>
+  invoice-details 
+</p>
+<div>
+<span>Enter Invoice Number  </span> <input type="text" [(ngModel)]="invoiceId"/>    <button type="button" (click)="getInvoiceDetails()">Get Invoice</button>
+</div>
+<div *ngIf="showInvoiceDetails">
+    <br/> <br/>
+  <span>Invoice Date : </span> <span>{{this.invoiceDetail.invoiceDate}}</span>
+  <br/> <br/>
+  <div style="width:350px;">
+    <div style="float: left;">
+      Bill Details
+      <div>Company Name : {{this.invoiceDetail.companyDetails.companyName}}</div>
+      <div>City : {{this.invoiceDetail.companyDetails.address.city}}</div>
+      <div>State : {{this.invoiceDetail.companyDetails.address.state}}</div>
+    </div>
+    <div style="float:right;">
+      Ship Details
+      <div>Customer Name: {{this.invoiceDetail.customerDetails.customerName}}</div>
+      <div>City : {{this.invoiceDetail.customerDetails.shippingDetails.city}}</div>
+      <div>State: {{this.invoiceDetail.customerDetails.shippingDetails.state}}</div>
+    </div>
+  </div>
+  <br/> <br/><br/> <br/>
+  <div>
+      <span>Product Details:</span>
+      <br/> 
+      <table border="1">
+        <thead><th>Name</th><th>Price</th><th>Quantity</th><th>Total</th></thead>
+        <tr *ngFor="let product of this.invoiceDetail.productDetails">
+          <td>{{product.name}}</td>
+          <td>{{product.price}}</td>
+          <td>{{product.quantity}}</td>
+          <td>{{product.price * product.quantity}}</td>
+        </tr>
+      </table>
+    </div>
+</div>

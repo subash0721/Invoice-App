@@ -29,6 +29,14 @@ namespace InvoiceApp
             services.AddDbContext<InvoiceContext>(options=> {
                 options.UseSqlServer(Configuration.GetConnectionString("Default"));
             });
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.WithOrigins("http://localhost:4200")
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials());
+            });
             services.AddSingleton<ICompanyDetails,CompanyDetails>();
             services.AddSingleton<IInvoiceDetails, InvoiceDetail>();
             services.AddMvc();
@@ -41,7 +49,7 @@ namespace InvoiceApp
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseCors("CorsPolicy");
             app.UseMvc();
         }
     }
