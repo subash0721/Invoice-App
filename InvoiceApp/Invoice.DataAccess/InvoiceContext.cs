@@ -14,5 +14,6 @@ namespace Invoice.DataAccess
         public DbSet<Company> Company { get; set; }
         public DbSet<InvoiceDetails> InvoiceDetails { get; set; }
         public DbSet<Product> Product { get; set; }
+        public DbSet<OrderDetails> OrderDetails { get; set; }
     }
 }

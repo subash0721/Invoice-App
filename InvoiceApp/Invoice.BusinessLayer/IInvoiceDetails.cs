@@ -8,5 +8,6 @@ namespace Invoice.BusinessLayer
     public interface IInvoiceDetails
     {
         InvoiceRequest CreateInvoice(InvoiceRequest invoiceRequest);
+        InvoiceResponse GetInvoiceDetails(string invoiceNumber);
     }
 }

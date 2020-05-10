@@ -11,7 +11,7 @@ namespace Invoice.DataAccess.Models
         public int CompanyId { get; set; }
         public string Date { get; set; }
         public int CustomerId { get; set; }
-        public List<Product> Products { get; set; } = new List<Product>();
+        public List<OrderDetails> Products { get; set; } = new List<OrderDetails>();
 
     }
 }

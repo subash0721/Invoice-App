@@ -11,9 +11,10 @@ using System;
 namespace Invoice.DataAccess.Migrations
 {
     [DbContext(typeof(InvoiceContext))]
-    partial class InvoiceContextModelSnapshot : ModelSnapshot
+    [Migration("20200509111315_invoicetable")]
+    partial class invoicetable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

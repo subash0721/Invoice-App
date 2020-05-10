@@ -20,8 +20,19 @@ namespace Invoice.Models
     }
 
     public class Product {
+        public int Id { get; set; }
         public string Name { get; set; }
         public double Price { get; set; }
         public int Quantity { get; set; }
     }
+
+    public class InvoiceResponse {
+        public string InvoiceDate { get; set; }
+        public int InvoiceId { get; set; }
+        public Customer CustomerDetails { get; set; }
+        public CompanyRequest CompanyDetails { get; set; }
+        public List<Product> ProductDetails { get; set; }
+    }
+
+
 }

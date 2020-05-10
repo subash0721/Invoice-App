@@ -23,12 +23,30 @@ namespace InvoiceApp.API.Controllers
         {
             try
             {
-                if (invoice.CompanyID > 0)
+                if (invoice.CompanyID < 0)
                 {
                     return BadRequest("Company ID invalid");
                 }
                 var company = _invoiceDetailsBL.CreateInvoice(invoice);
                 return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("unable to create customer");
+            }
+        }
+
+        [HttpGet, Route("Get/{invoiceNumber}")]
+        public ActionResult CreateInvoice(string invoiceNumber)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(invoiceNumber))
+                {
+                    return BadRequest("Company ID invalid");
+                }
+                var company = _invoiceDetailsBL.GetInvoiceDetails(invoiceNumber);
+                return Json(company);
             }
             catch (Exception ex)
             {
