@@ -1,3 +1,23 @@
 <p>
-  company-details works!
-</p>
+    Company-Details 
+  </p>
+  <div>
+  <span>Enter company ID  </span> <input type="text" [(ngModel)]="companyId"/>    <button type="button" (click)="getInvoiceDetails()">Get Company Invoices</button>
+  </div>
+  <div *ngIf="showInvoiceDetails">
+      <br/> <br/>
+   
+    <div>
+        <span>Invoice Details:</span>
+        <br/> 
+        <table border="1">
+          <thead><th>InvoiceNumber</th><th>CustomerName</th><th>TotallAmount</th></thead>
+          <tr *ngFor="let invoice of this.invoiceDetail.companyInvoice">
+            <td>{{invoice.invoiceNumber}}</td>
+            <td>{{invoice.customerName}}</td>
+            <td>{{invoice.totallAmount}}</td>
+           
+          </tr>
+        </table>
+      </div>
+  </div>

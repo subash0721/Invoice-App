@@ -27,10 +27,28 @@ namespace InvoiceApp.API.Controllers
                     return BadRequest("Company name should not be empty");
                 }
                var company= _companyDetailsBL.CreateCompany(customer);
-                return Ok();
+                return Json(new {companyId=company.Id,status= "success" });
             }
             catch (Exception ex) {
                 return BadRequest("unable to create customer");
+            }
+        }
+
+        [HttpGet, Route("Get/{companyId}")]
+        public ActionResult GetCompanyDetails(int companyId)
+        {
+            try
+            {
+                if (companyId<0)
+                {
+                    return BadRequest("companyId invalid");
+                }
+                var company = _companyDetailsBL.GetCompanyDetails(companyId);
+                return Json(company);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("unable to get invoice");
             }
         }
     }

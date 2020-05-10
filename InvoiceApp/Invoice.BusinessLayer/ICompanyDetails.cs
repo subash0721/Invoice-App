@@ -8,5 +8,6 @@ namespace Invoice.BusinessLayer
     public interface ICompanyDetails
     {
         Company CreateCompany(CompanyRequest company);
+        CompanyResponse GetCompanyDetails(int companyId);
     }
 }

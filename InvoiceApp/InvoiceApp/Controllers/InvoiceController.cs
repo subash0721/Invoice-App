@@ -27,30 +27,30 @@ namespace InvoiceApp.API.Controllers
                 {
                     return BadRequest("Company ID invalid");
                 }
-                var company = _invoiceDetailsBL.CreateInvoice(invoice);
+                var invoiceDetail = _invoiceDetailsBL.CreateInvoice(invoice);
                 return Ok();
             }
             catch (Exception ex)
             {
-                return BadRequest("unable to create customer");
+                return BadRequest("unable to create invoice");
             }
         }
 
         [HttpGet, Route("Get/{invoiceNumber}")]
-        public ActionResult CreateInvoice(string invoiceNumber)
+        public ActionResult GetInvoice(string invoiceNumber)
         {
             try
             {
                 if (string.IsNullOrEmpty(invoiceNumber))
                 {
-                    return BadRequest("Company ID invalid");
+                    return BadRequest("invoiceNumber invalid");
                 }
-                var company = _invoiceDetailsBL.GetInvoiceDetails(invoiceNumber);
-                return Json(company);
+                var invoice = _invoiceDetailsBL.GetInvoiceDetails(invoiceNumber);
+                return Json(invoice);
             }
             catch (Exception ex)
             {
-                return BadRequest("unable to create customer");
+                return BadRequest("unable to get invoice");
             }
         }
     }
